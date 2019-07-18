@@ -1,0 +1,13 @@
+<!-- comment inside here -->
+<!-- batch runner means run everything as long as it has @Test -->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suites>
+	<suite name="Batch run">
+		<test name="Batch name">
+			<packages>
+				<package name=".*"></package>
+			</packages>
+		</test>
+	</suite>
+</suites>
+

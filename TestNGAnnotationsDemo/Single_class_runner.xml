@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Single class suite">
+	<test name = "Single Class">
+		<classes>
+			<class name= "tests.Priorities"/>
+		</classes>
+	</test>
+</suite>
+
+
+
+

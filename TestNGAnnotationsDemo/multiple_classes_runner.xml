@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Multiple class suite">
+	<test name = "Multiple Class">
+		<classes>
+			<class name= "tests.Priorities"/>
+			<class name= "tests.Dependencies"/>
+			<class name= "moretests.MoreTest"/>
+		</classes>
+	</test>
+</suite>

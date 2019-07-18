@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Include method suite" >
+	<test name = "Include method">
+		<classes>
+			<class name = "tests.Login">
+				<methods>
+				<!-- have to use exclude keyword for method to NOT RUN-->
+					<exclude name= "login" />
+					<exclude name= "logout" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

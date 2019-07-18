@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Include method suite" >
+	<test name = "Include method">
+		<classes>
+			<class name = "tests.Login">
+				<methods>
+				<!-- have to use include keyword for method -->
+					<include name= "login" />
+					<include name= "doStuff" />
+				</methods>
+			</class>
+			
+			<class name = "tests.Priorities">
+				<methods>
+					<include name= "login" />
+					<include name= "updateUserInfo" />
+				</methods>
+			</class>
+			
+		</classes>
+	</test>
+</suite>
+
+
+
+
+

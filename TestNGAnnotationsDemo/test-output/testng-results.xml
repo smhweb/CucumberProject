@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Mixed packages and classes" duration-ms="115" started-at="2019-07-03T01:41:06Z" finished-at="2019-07-03T01:41:06Z">
+    <groups>
+    </groups>
+    <test name="test 1" duration-ms="34" started-at="2019-07-03T01:41:06Z" finished-at="2019-07-03T01:41:06Z">
+      <class name="tests.Login">
+        <test-method status="PASS" signature="doStuff()[pri:0, instance:tests.Login@32d992b2]" name="doStuff" duration-ms="7" started-at="2019-07-03T01:41:06Z" finished-at="2019-07-03T01:41:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doStuff -->
+        <test-method status="PASS" signature="login()[pri:0, instance:tests.Login@32d992b2]" name="login" duration-ms="0" started-at="2019-07-03T01:41:06Z" finished-at="2019-07-03T01:41:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:tests.Login@32d992b2]" name="logout" duration-ms="1" started-at="2019-07-03T01:41:06Z" finished-at="2019-07-03T01:41:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- tests.Login -->
+      <class name="moretests.MoreTest">
+        <test-method status="PASS" signature="moreTest()[pri:0, instance:moretests.MoreTest@215be6bb]" name="moreTest" duration-ms="1" started-at="2019-07-03T01:41:06Z" finished-at="2019-07-03T01:41:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moreTest -->
+      </class> <!-- moretests.MoreTest -->
+    </test> <!-- test 1 -->
+    <test name="test 2" duration-ms="7" started-at="2019-07-03T01:41:06Z" finished-at="2019-07-03T01:41:06Z">
+      <class name="tests.Login">
+        <test-method status="PASS" signature="doStuff()[pri:0, instance:tests.Login@39aeed2f]" name="doStuff" duration-ms="1" started-at="2019-07-03T01:41:06Z" finished-at="2019-07-03T01:41:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doStuff -->
+        <test-method status="PASS" signature="login()[pri:0, instance:tests.Login@39aeed2f]" name="login" duration-ms="1" started-at="2019-07-03T01:41:06Z" finished-at="2019-07-03T01:41:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:tests.Login@39aeed2f]" name="logout" duration-ms="0" started-at="2019-07-03T01:41:06Z" finished-at="2019-07-03T01:41:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- tests.Login -->
+    </test> <!-- test 2 -->
+    <test name="test 3" duration-ms="3" started-at="2019-07-03T01:41:06Z" finished-at="2019-07-03T01:41:06Z">
+      <class name="moretests.MoreTest">
+        <test-method status="PASS" signature="moreTest()[pri:0, instance:moretests.MoreTest@4b9e13df]" name="moreTest" duration-ms="2" started-at="2019-07-03T01:41:06Z" finished-at="2019-07-03T01:41:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moreTest -->
+      </class> <!-- moretests.MoreTest -->
+    </test> <!-- test 3 -->
+  </suite> <!-- Mixed packages and classes -->
+</testng-results>
